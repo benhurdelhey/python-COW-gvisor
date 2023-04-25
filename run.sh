@@ -1,0 +1,1 @@
+docker build . -t python-cow-example && docker run -it --rm --runtime=runsc --name python-cow-example python-cow-example
